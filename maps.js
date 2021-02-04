@@ -13,19 +13,19 @@ $(document).ready(function() {
     wait().then(function(){
         var water_points = {
             draw: function(){
-                var location_001={lat: 31.565, lng: -58.368333}
+                var location_001={lat: 33.7826122, lng: -100.2807869}
                 var point_001 = new google.maps.Marker({
                     position: location_001,
-                    title: "Diversion point 61204013001"
+                    title: "Discharge Point"
                 });
                 point_001.setMap(map);             
                 
-                var location_002={lat: 31.565, lng:-58.311944}
-                var point_002 = new google.maps.Marker({
-                    position: location_002,
-                    title: "Diversion point 61204013002"
-                });
-                point_002.setMap(map); 
+                //var location_002={lat: 31.565, lng:-58.311944}
+                //var point_002 = new google.maps.Marker({
+                //    position: location_002,
+                //    title: "Diversion point 61204013002"
+                //});
+                //point_002.setMap(map); 
 
                 // var location_003={lat: 32.655152, lng:-98.083317}
                 // var point_003 = new google.maps.Marker({
