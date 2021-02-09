@@ -20,34 +20,33 @@ $(document).ready(function() {
                 });
                 point_001.setMap(map);             
                 
-                //var location_002={lat: 31.565, lng:-58.311944}
-                //var point_002 = new google.maps.Marker({
-                //    position: location_002,
-                //    title: "Diversion point 61204013002"
-                //});
-                //point_002.setMap(map); 
+                var location_002={lat: 33.834729, lng:-100.299591}
+                var point_002 = new google.maps.Marker({
+                    position: location_002,
+                    title: "Northeast corner of John F Heath survey"
+                });
+                point_002.setMap(map); 
 
-                // var location_003={lat: 32.655152, lng:-98.083317}
-                // var point_003 = new google.maps.Marker({
-                //     position: location_003,
-                //     title: "Diversion point 61204013003"
-                // });
-                // point_003.setMap(map); 
+                var location_003={lat: 33.82778070096307, lng:-100.29961518420595}
+                var point_003 = new google.maps.Marker({
+                    position: location_003,
+                    title: "South 922.3 varas (773 meters)"
+                 });
+                 point_003.setMap(map); 
                 
-                // var location_004={lat: 32.677391, lng:-98.064417}
-                // var point_004 = new google.maps.Marker({
-                //     position: location_004,
-                //     title: "Diversion point 61204013004"
-                // });
-                // point_004.setMap(map); 
+                var location_004={lat: 33.827797978008704, lng:-100.30793959289387}
+                var point_004 = new google.maps.Marker({
+                    position: location_004,
+                    title: "West 918 varas (769 meters)"
+                });
+                point_004.setMap(map); 
                 
-                // var location_005={lat: 32.684237, lng:-98.073618}
-
-                // var point_005 = new google.maps.Marker({
-                //     position: location_005,
-                //     title: "Diversion point 61204013011 & On-channel Reservoir 61204013307"
-                // });
-                // point_005.setMap(map); 
+                var location_005={lat: 33.83475338812899, lng:-100.30803889263035}
+                var point_005 = new google.maps.Marker({
+                    position: location_005,
+                    title: "North 922.3 varas (773 meters)"
+                });
+                point_005.setMap(map); 
                 
                 // var location_006={lat: 32.671549, lng:-98.083757}
 
