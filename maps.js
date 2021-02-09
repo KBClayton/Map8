@@ -13,10 +13,10 @@ $(document).ready(function() {
     wait().then(function(){
         var water_points = {
             draw: function(){
-                var location_001={lat: 33.7826122, lng: -100.2807869}
+                var location_001={lat: 33.833889, lng: -100.300556}
                 var point_001 = new google.maps.Marker({
                     position: location_001,
-                    title: "Discharge Point"
+                    title: "Water well"
                 });
                 point_001.setMap(map);             
                 
